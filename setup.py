@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 
 setup(
-    name="moeanipic",
+    name="waifupicapi",
     version="0.4",
-    description="Unofficial API Library for waifu-pic For Free",
-    py_modules=["moeanipic"],
+    description="Unofficial API Library for waifu.pic For Free",
+    py_modules=["waifupicapi"],
     package_dir={'': 'src'},
     install_requires=["requests"],
     extras_require={
@@ -25,7 +25,7 @@ setup(
     ],
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MoeZilla/moeanipic",
+    url="https://github.com/MoeZilla/waifupicapi",
     author="Moezilla",
     author_email="Pranavajay594@gmail.com"
 
