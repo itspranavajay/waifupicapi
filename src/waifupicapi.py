@@ -8,13 +8,11 @@ def sfw(category):
     response = requests.get(pic)
     response.raise_for_status()
     jsonResponse = response.json()
-    img = (jsonResponse["url"])
-    return img
+    return jsonResponse["url"]
 
 def nsfw(category):
     pic = f"{base}/nsfw/{category}"
     response = requests.get(pic)
     response.raise_for_status()
     jsonResponse = response.json()
-    img = (jsonResponse["url"])
-    return img
+    return jsonResponse["url"]
